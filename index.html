@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfilo website </title>
+    <link rel="stylesheet" href="style.css">
+           
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#Services">Services</a></li>
+                    <li> <a href="#portfolio">portfolio</a></li>
+                    <li> <a href="#contact">contact</a></li>
+                    <i  class="fa-solid fa-bars" onclick="closemenu()">
+                         </i>
+                </ul>
+                <i  class="fa-solid fa-bars" onclick="Openmenu()">
+                     </i>
+            </nav>
+
+            <div class="header-text">
+                <p> UI/UX Designer</p>
+                <h1>Hi, I'm,<span> Goroba </span><br> Gaikwad From India </h1>
+            </div>
+
+        </div>
+    </div>
+<!-------------------------------------about--------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class=" row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>analytical, and self-driven programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, JavaScript,Bootstrap,and React.js programming languages.<br> Coordinated and collaborative team player with attention to detail, graphic design skills, and ability to contribute to code base improvement initiatives and UX improvement projects</p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiging web/App interfaces</li>
+                            <li><span>web Devlopment</span><br>Desiging web/App interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2023- current</span><br>UI/UX Design Training at Adhyaynan Institute</li>
+                            <li><span>4-6-month</span><br> UI/UX Design and Expriences in Freeliance </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Design Training at Adhyaynan Institute</li>
+                            <li><span>2023</span><br>BCA from Cocsit college Latur</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------services---------------------->
+         <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="Services-list">
+
+                    <div>
+                        <h2>Web Design</h2>
+                        <p> Convert PSD to HTML.<br>
+                            Convert PSD to Bootstrap.<br> 
+                            Checking for errors and de-bugging websites.<br>
+                            Client interaction about the project.<br>
+                            Making the website responsive.
+                        </p>
+                        <a href="#">learn more </a>
+                    </div>
+
+                    <div>
+                        <h2>UI/UX Design</h2>
+                        <p>Desiging personalized website for fresher,middle and senior level Clients.<br>
+                        Modifying and making changes according to client's requirements.<br>
+                        Creation of a few demo pages (2-3)for client approval.<br>
+                    After the client approved the design, than the next step was to create the live website.</p>
+                        <a href="#">learn more </a>
+                    </div>
+                </div>
+            </div>
+         </div>
+<!-----------------------------------------portfolio---------------------->
+
+ <div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="Work-list">
+        <div class="Work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Social Media pages </h3>
+                <p>I have some creating a<br> Social media pages like that and <br> This all pages are responsive  </p>
+            </div>
+    
+        </div>
+        <div class="Work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3> Tours and Traveling </h3>
+                <p>we are creating a one project and the project name 
+                    is travelling and tour in that Project. I was created multiple dynamic pages. in 
+                    that project and in that project use the JavaScript as per requirements 
+                    that meets accessibility and web browser standards for applications.  </p>
+            </div>
+    
+    
+        </div>
+        <div class="Work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3> Online shoping  website </h3>
+                <p> In that Online Shoping website<br> You can order anything in ust a minute <br>and this all website are responsive same like that i have some pages are create </p>
+            </div>
+    
+    
+        </div>
+    
+    
+    </div>
+
+    <a href="#" class="btn">See More</a>
+
+ </div>
+</div>
+
+
+<!---------------------------------------contact------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Contact@example.com</p>
+                <p>7058227169</p>
+                <div class="social-iocns">
+                 <a href="https://www.instagram.com/mr_cool_ravi25?igsh=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Gaikwadravi7"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/gaikwad.ravi.35?mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/goroba-gaikwad-9b90ba256/"><i class="fa-brands fa-linkedin"></i></a>
+                </div> 
+                <a href="images/my cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+              <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            
+              </form>
+              <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Gaikwad. with<i class="fas fa-heart"></i> by easy tutorials </p>
+
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+         }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function Openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = https://script.google.com/macros/s/AKfycbzfId8c_hYJgJHTJ2h58O7a4qVXjTFFqZM-I5ZQq_NxXgI78N5cVs-bTuzqlh39PRim6Q/exec
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""   
+            },5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
